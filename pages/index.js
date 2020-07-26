@@ -23,31 +23,43 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Call me <strong>Jun</strong>. I'm a full-time indie app developer
-          based in Seattle. I am currently building{" "}
+          I'm <strong>Jun</strong>, a full-time indie app developer based in
+          Seattle. I am currently building{" "}
           <a href="https://scrim.app">Scrim.app</a>.
         </p>
-        <p>
+        <small>
           <ul>
-            <li>Instagram</li>
-            <li>Indie Hacker</li>
-            <li>Github</li>
-            <li>LinkedIn</li>
+            <li>
+              <a href="mailto:jun.irok+blog@gmail.com">
+                jun.irok+blog@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/adrianlee">github.com/adrianlee</a>
+            </li>
+            <li>
+              <a href="https://instagram.com/irok">instagram.com/irok</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/adrianzlee">
+                linkedin.com/in/adrianzlee
+              </a>
+            </li>
           </ul>
-        </p>
+        </small>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              &emsp;&emsp;
+              <Link href="/posts/[id]" as={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
             </li>
           ))}
         </ul>
