@@ -1,5 +1,5 @@
 ---
-title: "Clear & concise"
+title: "Be clear & concise"
 date: "2020-07-26"
 ---
 
