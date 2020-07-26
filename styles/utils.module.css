@@ -45,8 +45,24 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  display: flex;
+  align-items: center;
 }
 
 .lightText {
   color: #999;
+}
+
+.dateText {
+  width: 170px;
+  padding: 2px;
+}
+
+.boxLink {
+  padding: 8px 12px;
+}
+
+.boxLink:hover {
+  background-color: #eee;
+  text-decoration: none;
 }
