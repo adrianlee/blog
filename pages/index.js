@@ -23,8 +23,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Call me <strong>Jun</strong>. I'm an indie developer based in Seattle.
-          I am currently building <a href="https://scrim.app">Scrim.app</a>.
+          Call me <strong>Jun</strong>. I'm a full-time indie app developer
+          based in Seattle. I am currently building{" "}
+          <a href="https://scrim.app">Scrim.app</a>.
         </p>
         <p>
           <ul>
