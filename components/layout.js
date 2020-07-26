@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
         <script
           data-goatcounter="https://adrianlee.goatcounter.com/count"
           async
-          src="//gc.zgo.at/count.js"
+          src="/count.js"
         ></script>
       </Head>
       <header className={styles.header}>
