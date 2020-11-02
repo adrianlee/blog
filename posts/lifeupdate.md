@@ -3,9 +3,9 @@ title: "Life update"
 date: "2020-10-20"
 ---
 
-Today marks one year since I left my job at Microsoft to build Scrim full-time! As of last month, I'm now a full-time father!
+Today marks one year since I left my job at Microsoft to build Scrim full-time! As of 2 months ago, I'm also a full-time father!
 
-The past month I worked on a few new features for Scrim tournaments:
+This past month I worked on new features for Scrim tournaments:
 
 #### Feature #1
 

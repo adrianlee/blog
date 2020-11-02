@@ -23,24 +23,24 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          I'm a Software Engineer based in Seattle. I am currently working on{" "}
-          <a href="https://scrim.app">Scrim</a>. Previously at Microsoft, on the
+          Hello from Seattle! I'm currently building{" "}
+          <a href="https://scrim.app">Scrim</a>, an esports tournament platform. Previously at Microsoft, on the
           Sway and Word Online team.
         </p>
         <small>
           <ul>
             <li>
-              <a href="mailto:jun.irok+blog@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/adrianzlee">LinkedIn</a>
             </li>
             <li>
               <a href="https://github.com/adrianlee">GitHub</a>
             </li>
             <li>
+              <a href="mailto:jun.irok+blog@gmail.com">Email</a>
+            </li>
+            {/* <li>
               <a href="https://instagram.com/irok">Instagram</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/adrianzlee">LinkedIn</a>
-            </li>
+            </li> */}
           </ul>
         </small>
       </section>
