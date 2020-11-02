@@ -3,9 +3,9 @@ title: "Weekend Project - Clips for CS:GO"
 date: "2020-11-01"
 ---
 
-Last weekend I created [Clips for CS:GO](https://clipz.now.sh), a service which emails your frag highlights from your latest matches on the official valve matchmaking servers. The idea for this project was initially a feature request for [Scrim](https://scrim.app).
+Last weekend I created [Clips for CS:GO](https://clipz.now.sh), a service which sends your frag highlights to your email. These highlights are from matches played on the Valve's official matchmaking servers. The idea for this project was initially a feature request for [Scrim](https://scrim.app).
 
-![Feature suggestion](/images/2020/featuresuggestionclips.png "Feature request")
+![Feature request](/images/2020/featuresuggestionclips.png "Feature request")
 <center><small>The feature request which sparked the idea for this project - 9/13/20</small></center>
 
 
@@ -19,7 +19,7 @@ I wanted to create a new service that's decoupled from [Scrim](https://scrim.app
 
 ### The biggest hurdle
 
-![](/images/2020/clipsben.png "")
+![Discord screenshot](/images/2020/clipsben.png "Ben says it will be hard")
 
 Valve makes it easy to download demos via a "match sharing code" but that requires you to launch the game client and interact with the dev console - there are no events to hook into to tell you when demos finish downloading. I needed a better solution, I wanted a demo download url from Valve. I knew it was out there but it seems like a trade secret to programmatically fetch this info. I ended up reverse engineering the "match sharing code" and parsed out the MatchID, OutcomeID and TokenID which then allowed me fetch match data from Steam. I have thank the open source for helping me with this one.
 
@@ -34,9 +34,9 @@ This project was built with:
 - **Firebase** for passwordless email auth. I'd love to try [Auth0 passwordless](https://auth0.com/passwordless/) and [Magic](https://magic.link) but they get expensive as you scale. I like to account for scale when making design decisions.
 - **Google Cloud Scheduler** for cron jobs. A solution I already depend on for Scrim.
 - **Amazon SQS** for the processing pipeline. Creating a new messaging queue is so easy with SQS. I'm not sure why I dabbled with Redis and RabbitMQ in the past for my side projects.
-- **Sendinblue** for transactional emails. I liked how realtime logs helped me debug faster (e.g. delivery, opened, link clicked). My only complaint is that tracked links in the email take over a second for the redirect response. This is partly due to the fact that the there servers are located in Europe only. This is something I overlooked. I'll probably switch to Mailjet because I've only heard good things.
+- **Sendinblue** for transactional emails. I liked how realtime logs helped me debug faster (e.g. delivery, opened, link clicked). My only complaint is that tracked links in the email take over a second for the redirect response. This is partly due to the fact that the there servers are located in Europe only. This is something I overlooked. I'll probably switch to MailJet because I've only heard good things.
 
-![](/images/2020/clipsfeedback.png "")
+![Discord screenshot](/images/2020/clipsfeedback.png "Feedback for new service")
 <center><small>I love when things just work and players get to share their post match highlights which would have otherwise been forgotten!</small></center>
 
 ### What's next
