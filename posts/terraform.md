@@ -7,4 +7,4 @@ I'm now using Terraform Cloud to scale VM servers horizontally! Since most of th
 
 ![Terraform variables](/images/2020/terraform.png "Terraform variables")
 
-I have an in-house solutions for managing and scaling docker containers within each VM. I'm interested in using Kubernetes to manage the lifecycle of the containers but I haven't found a need to migrate. If things aren't broken, why fix it? Or in my case, it doesn't make sense to potentially break production for the sake of my interests!
+I have an in-house solution for managing and scaling docker containers within each VM. I'm interested in using Kubernetes to manage the lifecycle of the containers but I haven't found a need to migrate. If things aren't broken, why fix it? Or in my case, it doesn't make sense to potentially break production for the sake of my interests!
