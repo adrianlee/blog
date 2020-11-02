@@ -34,7 +34,7 @@ I had a goal of 3 months to build this out, during this time, I was also traveli
 
 <center><small>The new PCs built for processing demos and generating in-game highlights.</small></center>
 
-## Jan 2019
+## Jan 2020
 
 I quickly scrapped the initial MVP idea and opted to build a service where anyone can start a custom 5v5 game for scrims or team practice. The new MVP became a lobby system to create matches. The solo queue idea was not viable. It would have required constant moderation. I would have needed to build and manage a community which meant less time building.
 
@@ -44,7 +44,7 @@ According to a [test match with friends](https://www.scrim.app/match/-Lz_HuY1YuF
 
 <center><small>Screenshot of first 5v5 game which ended in a draw</small></center>
 
-## February 2019
+## February 2020
 
 I launched [scrim.app](https://www.scrim.app) and had began thinking about monetization. What made my service stand out was that I had in-game match highlights generated at the end of every game. **The highlights feature created instant player delight and hooked them on to come back.**
 
