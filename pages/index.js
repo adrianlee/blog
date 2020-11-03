@@ -38,9 +38,6 @@ export default function Home({ allPostsData }) {
             <li>
               <a href="mailto:jun.irok+blog@gmail.com">Email</a>
             </li>
-            {/* <li>
-              <a href="https://instagram.com/irok">Instagram</a>
-            </li> */}
           </ul>
         </small>
       </section>
