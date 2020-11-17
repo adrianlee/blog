@@ -4,16 +4,16 @@ import Layout from "../components/layout";
 export default function Custom404() {
     return (
         <Layout>
-            <p>If pictures are worth a thousand words. I'll let pictures tell you about me.</p>
+            <p>If pictures are worth a thousand words. I'll let pictures tell you a little about me.</p>
 
             <p>
                 <Image src="/images/about/DSCF8621.jpg" width="800" height="533"></Image>
-                <center>Baby Kian! - 2020</center>
+                <center>Against the odds, baby Kian! - 2020</center>
             </p>
 
             <p>
                 <Image src="/images/about/DSC07307.jpg" width="800" height="533"></Image>
-                <center>Camping on the Olympic Peninsula Coast - 2019</center>
+                <center>At camp on the Olympic Peninsula Coast - 2019</center>
             </p>
 
             <p>
