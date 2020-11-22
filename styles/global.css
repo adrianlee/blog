@@ -5,8 +5,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Rubik', -apple-system, sans-serif;
-  line-height: 1.6rem;
-  font-size: 1.0rem;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.726);
 }
 
 * {
@@ -14,7 +16,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #ece282;
   text-decoration: none;
 }
 
@@ -28,5 +30,10 @@ img {
 }
 
 strong {
+  font-weight: 500;
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
   font-weight: 500;
 }

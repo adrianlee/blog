@@ -1,28 +1,32 @@
 .heading2Xl {
   font-size: 2.5rem;
   line-height: 1.2;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  color: #fff;
 }
 
 .headingXl {
   font-size: 2rem;
   line-height: 1.3;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  color: #fff;
 }
 
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  color: #fff;
 }
 
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  color: #fff;
 }
 
 .borderCircle {
@@ -59,9 +63,9 @@
 
 .boxLink {
   padding: 8px 12px;
+  text-decoration: none;
 }
 
 .boxLink:hover {
-  background-color: #eee;
-  text-decoration: none;
+  /* background-color: #eee; */
 }
