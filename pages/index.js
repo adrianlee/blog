@@ -24,9 +24,9 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Hello from Seattle! I'm currently building{" "}
-          <a href="https://scrim.app">Scrim</a>, an esports tournament platform. Previously at Microsoft, on the
-          Sway and Word Online team.
+          <a href="https://scrim.app">Scrim</a>, an esports tournament platform. My interests in the modern web and full-stack development is where my strengths lie. The backend stuff is where my rough edges are but I am learning how to build better microservices through experience.
         </p>
+        <Link href="/about">Know more about me 🤓📸🧳🚗🥾🌄</Link>
         <small>
           <ul>
             <li>
@@ -38,9 +38,6 @@ export default function Home({ allPostsData }) {
             <li>
               <a href="mailto:jun.irok+blog@gmail.com">Email</a>
             </li>
-            {/* <li>
-              <a href="https://instagram.com/irok">Instagram</a>
-            </li> */}
           </ul>
         </small>
       </section>
