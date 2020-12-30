@@ -49,7 +49,7 @@
 
 .listItem {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .lightText {
@@ -58,10 +58,12 @@
 
 .dateText {
   width: 170px;
-  padding: 2px;
+  padding: 8px 0;
 }
 
 .boxLink {
+  width: 100%;
   padding: 8px 12px;
   text-decoration: none;
+  text-align: left;
 }
